@@ -20,14 +20,13 @@ line2 = raw_input("Line 2: ")
 line3 = raw_input("Line 3: ")
 
 print "I'm going to write these to the file"
-
 #write() takes a string
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write(line1 + "\n" + line2 + "\n" + line3)
+# target.write("\n")
+# target.write(line2)
+# target.write("\n")
+# target.write(line3)
+# target.write("\n")
 
 print "And finally, we close it up!"
-target.close()
+# target.close()
